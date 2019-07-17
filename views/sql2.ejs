@@ -9,13 +9,13 @@
         <tr>
             <td><%= result.id %></td>
             <td><%= result['都道府県'] %></td>
-            <td><%= result['人口'] %></td>
+            <td><%= result['教員数'] %></td>
         </tr>
         <% } %>
     </table>
     <form action="/" method="get">
         並び順：<select name="sorting">
-            <option value="人口">人口</option>
+            <option value="教員数">教員数</option>
             <option value="男性">男性</option>
             <option value="女性">女性</option>
         </select>
